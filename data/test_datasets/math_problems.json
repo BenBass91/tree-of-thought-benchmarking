@@ -33,5 +33,110 @@
     "problem": "A compound interest investment of $1000 at 5% annual rate compounds quarterly. What is the value after 2 years?",
     "expected_answer": 1104.49,
     "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "type": "math",
+    "problem": "If log₂(x) = 3 and log₂(y) = 5, what is log₂(xy)?",
+    "expected_answer": 8,
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "type": "math",
+    "problem": "A circle has radius 6 cm. What is the area of a sector with central angle 60°?",
+    "expected_answer": 18.85,
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "type": "math",
+    "problem": "Solve for x: 2^(x+1) = 32",
+    "expected_answer": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "type": "math",
+    "problem": "A bag contains 5 red balls and 7 blue balls. What is the probability of drawing 2 red balls without replacement?",
+    "expected_answer": 0.167,
+    "difficulty": "hard"
+  },
+  {
+    "id": 10,
+    "type": "math",
+    "problem": "Find the derivative of f(x) = 3x³ + 2x² - 5x + 1",
+    "expected_answer": "9x² + 4x - 5",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "type": "math",
+    "problem": "A ladder 10 feet long leans against a wall. If the bottom is 6 feet from the wall, how high up the wall does it reach?",
+    "expected_answer": 8,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "type": "math",
+    "problem": "What is the 15th term of the arithmetic sequence: 3, 7, 11, 15, ...?",
+    "expected_answer": 59,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "type": "math",
+    "problem": "A box contains 20 items, 3 of which are defective. If 5 items are selected randomly, what is the expected number of defective items?",
+    "expected_answer": 0.75,
+    "difficulty": "hard"
+  },
+  {
+    "id": 14,
+    "type": "math",
+    "problem": "Simplify: √(72) + √(18) - √(8)",
+    "expected_answer": "8√2",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "type": "math",
+    "problem": "A triangle has sides of length 5, 12, and 13. What is its area?",
+    "expected_answer": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "type": "math",
+    "problem": "If sin(θ) = 3/5 and θ is in the first quadrant, what is cos(θ)?",
+    "expected_answer": 0.8,
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "type": "math",
+    "problem": "A function f(x) = ax² + bx + c passes through points (0,2), (1,3), and (2,6). Find the value of a.",
+    "expected_answer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 18,
+    "type": "math",
+    "problem": "What is the volume of a sphere with radius 3 cm? (Use π ≈ 3.14159)",
+    "expected_answer": 113.1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "type": "math",
+    "problem": "Solve the inequality: 2x - 3 < 7 and x + 1 ≥ -2",
+    "expected_answer": "-3 ≤ x < 5",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "type": "math",
+    "problem": "A sequence is defined by a₁ = 2 and aₙ₊₁ = 3aₙ - 1. What is a₄?",
+    "expected_answer": 14,
+    "difficulty": "hard"
   }
 ]

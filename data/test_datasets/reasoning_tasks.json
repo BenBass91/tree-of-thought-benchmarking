@@ -33,5 +33,54 @@
     "problem": "Compare the benefits and drawbacks of renewable energy sources versus fossil fuels.",
     "expected_answer": "environment, cost, reliability, infrastructure, transition",
     "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "type": "reasoning",
+    "problem": "Why do some scientific theories become widely accepted while others are rejected?",
+    "expected_answer": "evidence, peer review, reproducibility, paradigm shifts",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "type": "reasoning",
+    "problem": "What ethical considerations should guide the development of autonomous vehicles?",
+    "expected_answer": "safety, liability, decision algorithms, privacy, accessibility",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "type": "reasoning",
+    "problem": "Analyze the potential causes and solutions for increasing political polarization in democracies.",
+    "expected_answer": "media, echo chambers, education, dialogue, institutions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "type": "reasoning",
+    "problem": "How do cultural differences affect international business negotiations?",
+    "expected_answer": "communication styles, hierarchy, time, relationships, decision-making",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "type": "reasoning",
+    "problem": "What are the key factors that determine whether a new technology will be widely adopted?",
+    "expected_answer": "usefulness, ease of use, cost, compatibility, network effects",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "type": "reasoning",
+    "problem": "Explain the relationship between economic inequality and social mobility.",
+    "expected_answer": "education access, opportunity gaps, intergenerational effects, policy",
+    "difficulty": "hard"
+  },
+  {
+    "id": 12,
+    "type": "reasoning",
+    "problem": "What strategies can organizations use to foster innovation and creativity?",
+    "expected_answer": "culture, diversity, experimentation, resources, collaboration",
+    "difficulty": "medium"
   }
 ]

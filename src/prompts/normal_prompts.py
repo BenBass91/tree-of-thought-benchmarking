@@ -25,3 +25,11 @@ Please answer the following question:
 
 Provide a clear and thorough response.
 """
+
+NORMAL_CODING_TEMPLATE = """
+Solve this programming problem:
+
+{problem}
+
+Explain your approach and provide the solution.
+"""

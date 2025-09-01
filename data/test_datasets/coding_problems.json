@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "type": "coding",
+    "problem": "Write a function to find the largest element in a list without using the built-in max() function.",
+    "expected_answer": "iterate through list, track maximum",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "type": "coding",
+    "problem": "How would you check if a string is a palindrome? Describe the algorithm.",
+    "expected_answer": "compare string with its reverse or two-pointer approach",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "type": "coding",
+    "problem": "Explain how to implement a queue using two stacks.",
+    "expected_answer": "one stack for enqueue, another for dequeue operations",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "type": "coding",
+    "problem": "Given an array of integers, find two numbers that add up to a specific target. What's an efficient approach?",
+    "expected_answer": "hash map to store complements, O(n) solution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "type": "coding",
+    "problem": "How would you detect if a linked list has a cycle?",
+    "expected_answer": "Floyd's cycle detection algorithm with two pointers",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "type": "coding",
+    "problem": "Design a data structure that supports insert, delete, and getRandom operations in O(1) time.",
+    "expected_answer": "array with hash map for indices",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "type": "coding",
+    "problem": "Explain the difference between depth-first search (DFS) and breadth-first search (BFS). When would you use each?",
+    "expected_answer": "DFS uses stack/recursion, BFS uses queue; different use cases",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "type": "coding",
+    "problem": "How would you find the longest common subsequence between two strings?",
+    "expected_answer": "dynamic programming with 2D table",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "type": "coding",
+    "problem": "Design a cache with LRU (Least Recently Used) eviction policy.",
+    "expected_answer": "doubly linked list with hash map",
+    "difficulty": "hard"
+  },
+  {
+    "id": 10,
+    "type": "coding",
+    "problem": "Given a binary tree, how would you serialize and deserialize it?",
+    "expected_answer": "preorder traversal with null markers",
+    "difficulty": "hard"
+  }
+]

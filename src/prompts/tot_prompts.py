@@ -64,3 +64,26 @@ Using systematic Tree of Thought analysis:
 
 Present your complete thought process and conclusion.
 """
+
+TOT_CODING_TEMPLATE = """
+Coding Problem: {problem}
+
+Apply Tree of Thought methodology to solve this programming challenge:
+
+1. **Problem Understanding**: What exactly needs to be accomplished?
+
+2. **Algorithm Approaches**: Consider multiple solution strategies:
+   - Approach A: [Algorithm/data structure]
+   - Approach B: [Alternative method]
+   - Approach C: [Different perspective]
+
+3. **Complexity Analysis**: Evaluate time and space complexity for each approach.
+
+4. **Optimal Solution**: Choose the best approach and explain your reasoning.
+
+5. **Implementation Strategy**: Break down the implementation steps.
+
+6. **Edge Cases**: Consider potential edge cases and error handling.
+
+Provide your complete reasoning and solution approach.
+"""

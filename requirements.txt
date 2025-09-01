@@ -8,3 +8,4 @@ jupyter
 requests
 tqdm
 scikit-learn
+scipy

@@ -1,6 +1,6 @@
 benchmark:
   iterations: 100
-  timeout: 30  # seconds
+  timeout: 120  # seconds - increased for ToT complexity
   save_responses: true
   
 evaluation:
@@ -18,13 +18,16 @@ evaluation:
 datasets:
   math_problems:
     enabled: true
-    count: 2
+    count: 20
   logic_puzzles:
     enabled: true
-    count: 2
+    count: 15
   reasoning_tasks:
     enabled: true
-    count: 1
+    count: 12
+  coding_problems:
+    enabled: true
+    count: 10
 
 output:
   results_dir: "data/results"

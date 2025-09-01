@@ -12,7 +12,8 @@ class ModelManager:
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
-        self.client = ollama.Client()
+        # Initialize client with longer timeout for complex reasoning
+        self.client = ollama.Client(timeout=180)  # 3 minutes timeout
         self.logger = logging.getLogger(__name__)
         
     def ensure_model_exists(self, model_name: str) -> bool:
@@ -119,7 +120,9 @@ class ModelManager:
                     "temperature": self.config['model'].get('temperature', 0.7),
                     "top_p": self.config['model'].get('top_p', 0.9),
                     "num_predict": self.config['model'].get('max_tokens', 2048)
-                }
+                },
+                # Keep alive to avoid reloading for subsequent requests
+                keep_alive="10m"
             )
             
             return {

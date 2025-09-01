@@ -33,5 +33,75 @@
     "problem": "A farmer has chickens and rabbits. He counts 35 heads and 94 legs total. How many chickens and rabbits does he have?",
     "expected_answer": "23 chickens, 12 rabbits",
     "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "type": "logic",
+    "problem": "Five houses in a row are painted different colors: red, blue, green, yellow, white. The red house is immediately to the left of the blue house. The green house is at one end. The yellow house is between the white and blue houses. What is the order of houses from left to right?",
+    "expected_answer": "green, white, yellow, red, blue",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "type": "logic",
+    "problem": "If all roses are flowers, and some flowers are red, can we conclude that some roses are red?",
+    "expected_answer": "false",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "type": "logic",
+    "problem": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+    "expected_answer": "7.5 degrees",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "type": "logic",
+    "problem": "In a code, TREE is written as 8411. LEAF is written as 5167. How is FELT written?",
+    "expected_answer": "7158",
+    "difficulty": "hard"
+  },
+  {
+    "id": 10,
+    "type": "logic",
+    "problem": "Four people can cross a bridge in 1, 2, 7, and 10 minutes respectively. They have one flashlight and must cross together in pairs. What is the minimum time for all to cross?",
+    "expected_answer": "17 minutes",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "type": "logic",
+    "problem": "If today is Wednesday, what day was it 100 days ago?",
+    "expected_answer": "Monday",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "type": "logic",
+    "problem": "A truthteller always tells the truth, a liar always lies. You meet two people. Person A says 'I am a liar.' Person B says 'A is telling the truth.' What are A and B?",
+    "expected_answer": "paradox - neither can be classified consistently",
+    "difficulty": "hard"
+  },
+  {
+    "id": 13,
+    "type": "logic",
+    "problem": "In a tournament, each team plays every other team exactly once. If there are 6 teams, how many games are played total?",
+    "expected_answer": 15,
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "type": "logic",
+    "problem": "You have 8 balls, 7 of which weigh the same. One ball is heavier. Using a balance scale only twice, can you identify the heavier ball?",
+    "expected_answer": "yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "type": "logic",
+    "problem": "If some politicians are honest, and all honest people are trustworthy, what can we conclude about politicians?",
+    "expected_answer": "some politicians are trustworthy",
+    "difficulty": "medium"
   }
 ]
