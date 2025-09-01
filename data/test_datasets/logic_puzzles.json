@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "logic",
+    "problem": "All cats are mammals. Fluffy is a cat. Therefore, Fluffy is a mammal. Is this reasoning valid?",
+    "expected_answer": "true",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "type": "logic",
+    "problem": "If it rains, then the ground gets wet. The ground is wet. Therefore, it rained. Is this reasoning valid?",
+    "expected_answer": "false",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "type": "logic",
+    "problem": "In a group of 30 students, 18 play soccer, 12 play basketball, and 8 play both sports. How many students play neither sport?",
+    "expected_answer": 8,
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "type": "logic",
+    "problem": "Three friends Alice, Bob, and Charlie have different colored shirts: red, blue, and green. Alice doesn't wear red. Bob doesn't wear blue. Charlie doesn't wear green. What color shirt does each person wear?",
+    "expected_answer": "Alice: blue, Bob: green, Charlie: red",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "type": "logic",
+    "problem": "A farmer has chickens and rabbits. He counts 35 heads and 94 legs total. How many chickens and rabbits does he have?",
+    "expected_answer": "23 chickens, 12 rabbits",
+    "difficulty": "hard"
+  }
+]

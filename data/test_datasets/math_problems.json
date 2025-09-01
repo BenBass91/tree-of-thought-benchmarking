@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "math",
+    "problem": "A train travels 120 miles in 2 hours. If it maintains the same speed, how far will it travel in 5 hours?",
+    "expected_answer": 300,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "type": "math", 
+    "problem": "If x + 2y = 10 and 3x - y = 4, what is the value of x?",
+    "expected_answer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "type": "math",
+    "problem": "A rectangle has a perimeter of 24 cm and an area of 32 cm². What are its dimensions?",
+    "expected_answer": "8 cm × 4 cm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "type": "math",
+    "problem": "Find the sum of the first 20 positive integers.",
+    "expected_answer": 210,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "type": "math",
+    "problem": "A compound interest investment of $1000 at 5% annual rate compounds quarterly. What is the value after 2 years?",
+    "expected_answer": 1104.49,
+    "difficulty": "hard"
+  }
+]

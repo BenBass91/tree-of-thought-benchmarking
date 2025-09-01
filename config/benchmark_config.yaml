@@ -1,0 +1,32 @@
+benchmark:
+  iterations: 100
+  timeout: 30  # seconds
+  save_responses: true
+  
+evaluation:
+  metrics:
+    - accuracy
+    - reasoning_quality
+    - response_time
+    - step_count
+  
+  scoring:
+    accuracy_weight: 0.4
+    quality_weight: 0.3
+    efficiency_weight: 0.3
+
+datasets:
+  math_problems:
+    enabled: true
+    count: 2
+  logic_puzzles:
+    enabled: true
+    count: 2
+  reasoning_tasks:
+    enabled: true
+    count: 1
+
+output:
+  results_dir: "data/results"
+  save_format: ["json", "csv"]
+  generate_plots: true

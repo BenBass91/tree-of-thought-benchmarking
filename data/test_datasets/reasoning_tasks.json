@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "reasoning",
+    "problem": "What are the advantages and disadvantages of remote work for both employees and employers?",
+    "expected_answer": "flexibility, productivity, costs, communication, collaboration",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "type": "reasoning",
+    "problem": "Explain why biodiversity is important for ecosystem stability.",
+    "expected_answer": "resilience, food webs, genetic diversity, adaptation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "type": "reasoning",
+    "problem": "How might artificial intelligence impact the job market in the next 10 years?",
+    "expected_answer": "automation, new jobs, skill requirements, economic changes",
+    "difficulty": "hard"
+  },
+  {
+    "id": 4,
+    "type": "reasoning",
+    "problem": "What factors should be considered when designing a sustainable city?",
+    "expected_answer": "energy, transportation, waste, green spaces, density",
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "type": "reasoning",
+    "problem": "Compare the benefits and drawbacks of renewable energy sources versus fossil fuels.",
+    "expected_answer": "environment, cost, reliability, infrastructure, transition",
+    "difficulty": "medium"
+  }
+]

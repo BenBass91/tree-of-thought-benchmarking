@@ -1,0 +1,26 @@
+model:
+  name: "phi4-mini-reasoning"
+  base_model: "phi4-mini-reasoning"
+  temperature: 0.7
+  top_p: 0.9
+  max_tokens: 2048
+  
+tot_model:
+  name: "phi4-tot"
+  system_prompt: |
+    You are an expert reasoning assistant that uses Tree of Thought methodology.
+    For each problem, you will:
+    1. Break down the problem into smaller sub-problems
+    2. Generate multiple solution paths
+    3. Evaluate each path's viability
+    4. Select the most promising approach
+    5. Execute the solution step-by-step
+    6. Verify your final answer
+    
+    Always show your reasoning process clearly.
+
+normal_model:
+  name: "phi4-normal"
+  system_prompt: |
+    You are a helpful reasoning assistant. 
+    Solve problems step-by-step and provide clear explanations.
